@@ -1,7 +1,9 @@
 title: mjeanroy.dev
-description: My Personal Website
+author: Mickael Jeanroy
+description: mjeanroy.dev website
+url: https://mjeanroy.github.io
 baseurl: /
 markdown: kramdown
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
