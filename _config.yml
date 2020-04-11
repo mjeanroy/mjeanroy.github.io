@@ -1,0 +1,7 @@
+title: mjeanroy.dev
+description: My Personal Website
+baseurl: /
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
