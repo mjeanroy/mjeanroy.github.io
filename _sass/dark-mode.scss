@@ -1,15 +1,17 @@
+@import "colors";
+
 body {
   font-family: "Roboto Mono", monospace;
 }
 
 .dark-mode {
-  background-color: #212529;
-  color: #6c757d;
+  background-color: $bgColor;
+  color: $mainColor;
 
   a {
-    color: rgba(255, 255, 255, .65);
+    color: $linkColor;
     &:hover {
-      color: rgba(255, 255, 255, .3);
+      color: $linkColorHover;
     }
   }
 }
