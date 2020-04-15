@@ -1,0 +1,14 @@
+---
+layout: default
+title: About
+permalink: /about
+---
+
+{% capture about %}
+  {% include_relative about.md %}
+{% endcapture %}
+
+<div class="about">
+  <img src="/static/assets//avatar.jpeg" class="avatar"/>
+  <div>{{ about | markdownify }}</div>
+</div>

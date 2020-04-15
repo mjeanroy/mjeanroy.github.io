@@ -1,0 +1,24 @@
+---
+layout: default
+title: Projects
+permalink: /projects
+---
+
+<div class="projects">
+  {% for project in site.data.projects %}
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        </h5>
+        <div class="card-text">
+          <p>{{ project.description }}</p>
+          <p>
+            <span class="badge badge-success">{{ project.language }}</span>
+            <span class="badge badge-secondary">{{ project.license }}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

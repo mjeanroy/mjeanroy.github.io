@@ -1,0 +1,40 @@
+- name: JUnit Servers
+  language: Java
+  url: https://github.com/mjeanroy/junit-servers
+  description: Simple library that can be used to run integration test with an embedded Tomcat or Jetty.
+  license: MIT
+- name: DBunit+
+  language: Java
+  url: https://github.com/mjeanroy/dbunit-plus
+  description: DBUnit on steroids
+  license: MIT
+- name: ExifTool Java
+  language: Java
+  url: https://github.com/mjeanroy/exiftool-lib
+  description: ExifTool Java Client (a.k.a wrapper for ExifTool perl executable).
+  license: Apache-2
+- name: jasmine-utils
+  language: JavaScript
+  url: https://github.com/mjeanroy/jasmine-utils
+  description: Complete set of Jasmine matchers and utilities.
+  license: MIT
+- name: jasmine-dom-spec
+  language: JavaScript
+  url: https://github.com/mjeanroy/jasmine-dom-spec
+  description: Jasmine matchers related to DOM.
+  license: MIT
+- name: rollup-plugin-license
+  language: JavaScript
+  url: https://github.com/mjeanroy/rollup-plugin-license
+  description: Add license banner to your bundle, validate used licenses and export license report.
+  license: MIT
+- name: rollup-plugin-prettier
+  language: JavaScript
+  url: https://github.com/mjeanroy/rollup-plugin-prettier
+  description: Run prettier formatter on your final bundle.
+  license: MIT
+- name: rollup-plugin-esformatter
+  language: JavaScript
+  url: https://github.com/mjeanroy/rollup-plugin-esformatter
+  description: Run esformatter formatter on your final bundle.
+  license: MIT
