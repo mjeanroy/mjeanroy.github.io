@@ -1,0 +1,29 @@
+.talks {
+  > div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lighten($bgColor, 30%);
+
+    padding: 20px 0;
+  }
+
+  .talk-logo {
+    margin: 0 30px;
+  }
+
+  img {
+    $width: 100px;
+
+    width: $width;
+    min-width: $width;
+    max-width: $width;
+
+    @include sm-down {
+      $width: 30px;
+
+      width: $width;
+      min-width: $width;
+      max-width: $width;
+    }
+  }
+}

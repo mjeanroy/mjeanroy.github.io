@@ -1,0 +1,24 @@
+---
+layout: default
+title: Talks
+permalink: /talks
+---
+
+<div class="talks">
+  {% for talk in site.data.talks %}
+    <div>
+      <div class="talk-logo">
+        <img src="/static/assets/{{ talk.logo }}" alt="{{ talk.name }}"/>
+      </div>
+      <div class="talk-content">
+        <h5 class="card-title">
+          <a href="{{ talk.url }}" target="_blank">{{ talk.name }}</a>
+        </h5>
+        <div class="card-text">
+          <div>{{ talk.event }} -- {{ talk.date | date_to_string }}</div>
+          <div>{{ talk.place }}</div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

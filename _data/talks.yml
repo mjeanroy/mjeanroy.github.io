@@ -1,0 +1,133 @@
+- name: Que deviennent nos mots de passe après un leak de données ?
+  date: 2020-03-27
+  place: Online
+  event: Malt Academy
+  logo: logo-malt-academy.png
+  url: https://www.youtube.com/watch?v=eHrlyo9U6E4&t=3s
+  description: >
+    De nos jours, les leaks de données sont devenus monnaie courante. On entend parler quotidiennement de failles exploitées sur nos sites préférés, qui ont rendu nos données vulnérables et disponibles dans la nature. Dans ce talk, nous vous proposons de découvrir ensemble à quoi peut ressembler une base de données fuitée et ce qu’on peut en faire.
+
+    Nous vous montrerons entre autres (avec des démos) comment récupérer des mots passe à partir de ces fuites ainsi que les différentes fonctions de hachage, mais surtout comment les craquer !
+
+    Pour finir, nous verrons ce que chacun peut faire pour se protéger en tant qu’utilisateur.
+
+- name: Que deviennent nos mots de passe après un leak de données ?
+  date: 2019-05-24
+  place: Lyon, France
+  event: MiXiT 2019
+  logo: logo-mixit.svg
+  url: https://mixitconf.org/2019/que-deviennent-nos-mots-de-passe-apres-un-leak-de-donnees-
+  description: >
+    De nos jours, les leaks de données sont devenus monnaie courante. On entend parler quotidiennement de failles exploitées sur nos sites préférés, qui ont rendu nos données vulnérables et disponibles dans la nature. Dans ce talk, nous vous proposons de découvrir ensemble à quoi peut ressembler une base de données fuitée et ce qu’on peut en faire.
+
+    Nous vous montrerons entre autres (avec des démos) comment récupérer des mots passe à partir de ces fuites ainsi que les différentes fonctions de hachage, mais surtout comment les craquer !
+
+    Pour finir, nous verrons ce que chacun peut faire pour se protéger en tant qu’utilisateur.
+
+- name: Intégrez la sécu dans votre quotidien avant qu’il ne soit trop tard!
+  date: 2018-11-27
+  place: Marrakesh, Morocco
+  event: Devoxx MA 2018
+  logo: logo-devoxx-ma.png
+  url: https://cfp2018.devoxx.ma/2018/speaker/mickael_jeanroy
+  description: >
+    L’année 2017 était sans doute l'année des fuites de données et de la cybersécurité. Rien de tel qu’un bad buzz créé par un « data breach » pour nuire à l’image de votre entreprise et détruire votre réputation !
+
+    Lors de ce talk, nous allons découvrir ensemble comment intégrer la sécurité dans votre plateforme d'intégration continue.
+
+    Nous verrons aussi les principales failles de l’OWASP et comment les éviter. Nous vous montrerons avec quelques démos les techniques indispensables pour identifier le maximum de vulnérabilités afin de livrer des applications sécurisées à moindre coût :
+
+    - Analyse de dépendances et du code source
+    - Analyse des images docker
+    - Tests d'intrusion automatisés
+
+- name: Intégrez la sécu dans votre quotidien avant qu’il ne soit trop tard!
+  date: 2018-04-19
+  place: Lyon, France
+  event: MiXiT 2018
+  logo: logo-mixit.svg
+  url: https://mixitconf.org/2018/integrez-la-secu-dans-votre-quotidien-avant-qu-il-ne-soit-trop-tard-
+  description: >
+    L’année 2017 était sans doute l'année des fuites de données et de la cybersécurité. Rien de tel qu’un bad buzz créé par un « data breach » pour nuire à l’image de votre entreprise et détruire votre réputation !
+
+    Lors de ce talk, nous allons découvrir ensemble comment intégrer la sécurité dans votre plateforme d'intégration continue.
+
+    Nous verrons aussi les principales failles de l’OWASP et comment les éviter. Nous vous montrerons avec quelques démos les techniques indispensables pour identifier le maximum de vulnérabilités afin de livrer des applications sécurisées à moindre coût :
+
+    - Analyse de dépendances et du code source
+    - Analyse des images docker
+    - Tests d'intrusion automatisés
+
+- name: "CTF : Sortez le Mr Robot qui est en vous !"
+  date: 2017-10-20
+  place: Nantes, France
+  event: DevFest Nantes 2017
+  logo: logo-devfest-nantes-2017.png
+  url: https://devfest2017.gdgnantes.com/schedule/day2?sessionId=1541
+  description: >
+    Vous avez déjà entendu parler de SQL Injection, de failles CSRF ou autres ? Ok, mais les avez-vous déjà exploitées ?
+
+    Dans ce workshop, nous vous proposerons un "Capture The Flag" qui vous permettra de chercher, analyser et exploiter différentes failles de sécurité.
+    Que vous soyez novice ou non, ne vous inquiétez pas, nous serons là pour vous aiguiller dans le seul but d'apprendre des choses tout en passant un excellent moment !
+
+    Ce workshop se déroulera en plusieurs temps :
+
+    D'abord un tour d'horizon de différentes failles, avec des exemples concrets mettant en évidence que même les meilleurs développeurs du monde font des erreurs :)
+    Ensuite, nous vous fournirons des liens vers différentes applications dont le but sera d'exploiter une faille vous permettant de récupérer un code.
+    Chaque code récupéré vous permettra de gagner un nombre de points dépendant de la difficulté.
+    Les plus chevronnés d'entre vous seront récompensés :)
+    
+    Notre rêve caché : trouver le Mr Robot de ce DevFest !
+
+- name: "CTF : Sortez le Mr Robot qui est en vous !"
+  date: 2017-09-14
+  place: La Rochelle, France
+  event: JUG Summer Camp 2017
+  logo: logo-summercamp.png
+  url: http://www.jugsummercamp.org/edition/8/presentation/1183
+  description: >
+    Vous avez déjà entendu parler de SQL Injection, de failles CSRF ou autres ? Ok, mais les avez-vous déjà exploitées ?
+
+    Dans ce workshop, nous vous proposerons un "Capture The Flag" qui vous permettra de chercher, analyser et exploiter différentes failles de sécurité. Que vous soyez novice ou non, ne vous inquiétez pas, nous serons là pour vous aiguiller dans le seul but d'apprendre des choses tout en passant un excellent moment !
+
+    Ce workshop se déroulera en plusieurs temps :
+    D'abord un tour d'horizon de différentes failles, avec des exemples concrets mettant en évidence que même les meilleurs développeurs du monde font des erreurs :)
+    Ensuite, nous vous fournirons des liens vers différentes applications dont le but sera d'exploiter une faille vous permettant de récupérer un code.
+    Chaque code récupéré vous permettra de gagner un nombre de points dépendant de la difficulté.
+    Les plus chevronnés d'entre vous seront récompensés :)
+
+    Notre rêve caché : trouver le Mr Robot de ce JugSummerCamp !
+
+- name: "CTF : Sortez le Mr Robot qui est en vous !"
+  date: 2017-04-21
+  place: Lyon, France
+  event: MiXiT 2017
+  logo: logo-mixit.svg
+  url: https://mixitconf.org/2017/ctf-sortez-le-mr-robot-qui-est-en-vous-
+  description: >
+    Vous avez déjà entendu parler de SQL Injection, de failles CSRF ou autres ? Ok, mais les avez-vous déjà exploitées ?
+
+    Dans ce workshop, nous vous proposerons un "Capture The Flag" qui vous permettra de chercher, analyser et exploiter différentes failles de sécurité. Que vous soyez novice ou non, ne vous inquiétez pas, nous serons là pour vous aiguiller dans le seul but d'apprendre des choses tout en passant un excellent moment !
+
+    Ce workshop se déroulera en plusieurs temps :
+    D'abord un tour d'horizon de différentes failles, avec des exemples concrets mettant en évidence que même les meilleurs développeurs du monde font des erreurs :)
+    Ensuite, nous vous fournirons des liens vers différentes applications dont le but sera d'exploiter une faille vous permettant de récupérer un code.
+    Chaque code récupéré vous permettra de gagner un nombre de points dépendant de la difficulté.
+    Les plus chevronnés d'entre vous seront récompensés :)
+
+    Notre rêve caché : trouver le Mr Robot de ce MiXiT !
+
+- name: A la découverte des modules bundlers JS
+  date: 2016-12-13
+  place: Lyon, France
+  event: Human Talks Lyon
+  logo: logo-humantalks.png
+  url: https://humantalks.com/talks/920-a-la-decouverte-des-modules-bundlers-js
+  descriptions: >
+    Si tu fais du Web en 2016, tu as sans doute entendu parler de module bundlers comme Webpack ou Browserify, et peut-être même tu en utilises un !
+
+    Dans ce talk, on essaiera de dépoussiérer un peu l'univers des modules bundlers et on essaiera de répondre à ces questions :
+
+    Qu'est-ce qui n'allait pas avant pour que tout le monde veuille utiliser ce genre d'outils ?
+    Quelles sont les possibilités aujourd'hui ?
+    Que va-t-on faire demain ?
