@@ -1,9 +1,13 @@
 title: mjeanroy.dev
 author: Mickael Jeanroy
 description: mjeanroy.dev website
-url: https://mjeanroy.github.io
+url: https://mjeanroy.dev
 baseurl: /
 markdown: kramdown
+
 sass:
     sass_dir: _sass
     style: compressed
+
+twitter:
+    username: mickaeljeanroy
