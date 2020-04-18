@@ -6,8 +6,18 @@ baseurl: /
 markdown: kramdown
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 twitter:
-    username: mickaeljeanroy
+  username: mickaeljeanroy
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
