@@ -4,11 +4,18 @@ title: About
 permalink: /about
 ---
 
-{% capture about %}
-  {% include_relative about.md %}
+{% capture me %}
+  {% include me.md %}
+{% endcapture %}
+
+{% capture contact %}
+  {% include contact.md %}
 {% endcapture %}
 
 <div class="about">
   <img src="/static/assets//avatar.jpeg" class="avatar"/>
-  <div>{{ about | markdownify }}</div>
+  <div>
+    <div>{{ me | markdownify }}</div>
+    <div>{{ contact | markdownify }}</div>
+  </div>
 </div>

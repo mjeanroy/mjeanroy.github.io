@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+{% capture me %}
+  {% include me.md %}
+{% endcapture %}
+
+{% capture contact %}
+  {% include contact.md %}
+{% endcapture %}
+
+<div class="home">
+  <div class="me">{{ me | markdownify }}</div>
+  <div class="contact">{{ contact | markdownify }}</div>
+</div>
