@@ -10,4 +10,10 @@
     width: 100%;
     margin: 0;
   }
+
+  .body {
+    @include lg-down {
+      padding: 0 10px;
+    }
+  }
 }
