@@ -10,6 +10,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+ga:
+  id: UA-163949403-1
+
 twitter:
   username: mickaeljeanroy
 
