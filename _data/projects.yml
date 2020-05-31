@@ -13,6 +13,11 @@
   url: https://github.com/mjeanroy/exiftool-lib
   description: ExifTool Java Client (a.k.a wrapper for ExifTool perl executable).
   license: Apache-2
+- name: SpringMVC Mustache
+  language: Java
+  url: https://github.com/mjeanroy/springmvc-mustache
+  description: Add mustache templates to Spring MVC
+  license: MIT
 - name: jasmine-utils
   language: JavaScript
   url: https://github.com/mjeanroy/jasmine-utils
