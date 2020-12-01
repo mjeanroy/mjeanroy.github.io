@@ -38,7 +38,7 @@ I have had opportunity to work on various parts of the platform, such as:
 - **Back**: Java, Spring Framework (Spring Core, Spring Boot, Spring Security, etc.), JOOQ
 - **Front**: JavaScript, TypeScript, VueJS
 - **Database**: MongoDB, PostgreSQL, Elasticsearch
-- **Messaging**: RabbitMQ, Kafka
+- **Messaging**: RabbitMQ
 - **CI/CD**: Maven and Yarn as build tools, Bamboo as continuous integration server.
 - **Other**: Docker, Web Security, Git
 
