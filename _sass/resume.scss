@@ -1,0 +1,39 @@
+@import "colors";
+
+.resume {
+  h4 {
+      color: $linkColor;
+      margin-top: 30px;
+      margin-bottom: 25px;
+  }
+
+  h5 {
+    font-size: inherit;
+    color: $linkColor;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  ul {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      margin-left: 30px;
+      list-style: '- ';
+    }
+  }
+}

@@ -1,3 +1,5 @@
+$maxWidthXxs: 350px;
+$minWidthXs: $maxWidthXxs + 1;
 $maxWidthXs: 599px;
 $minWidthSm: $maxWidthXs + 1;
 $maxWidthSm: 768px;
@@ -6,6 +8,12 @@ $maxWidthMd: 991px;
 $minWidthLg: $maxWidthMd + 1;
 $maxWidthLg: 1199px;
 $minWidthXl: $maxWidthLg + 1;
+
+@mixin xxs-down {
+  @media (max-width: $maxWidthXxs) {
+    @content;
+  }
+}
 
 @mixin xs-down {
   @media (max-width: $maxWidthXs) {
@@ -33,6 +41,12 @@ $minWidthXl: $maxWidthLg + 1;
 
 @mixin xs {
   @media (max-width: $maxWidthXs) {
+    @content;
+  }
+}
+
+@mixin xxs {
+  @media (max-width: $maxWidthXxs) {
     @content;
   }
 }
