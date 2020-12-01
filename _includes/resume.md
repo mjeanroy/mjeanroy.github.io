@@ -63,7 +63,7 @@ As a **consultant**, I had the opportunity to work on various projects:
 - **CI/CD**: Maven and Gulp as build tools, Jenkins as continuous integration server, Sonar.
 - **Other**: Docker, Git
   
-As a **trainer**, I have had the opportunity to trained software engineers on:
+As a **trainer**, I have had the opportunity to train software engineers on:
 
 - [Angular](https://training.zenika.com/fr-fr/training/angular/program): https://training.zenika.com/fr-fr/training/angular/program
 - [React](https://training.zenika.com/fr-fr/training/react/description): https://training.zenika.com/fr-fr/training/react/description
