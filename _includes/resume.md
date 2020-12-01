@@ -4,7 +4,7 @@
 
 - **Backend**: Java, Spring Framework (Spring Core, Spring Boot, Spring Security, etc.), JPA / Hibernate
 - **Frontend**: JavaScript, TypeScript, AngularJS, Angular, VueJS, React
-- **Database**: Postgresql, MySQL, MongoDB, ElasticSearch
+- **Database**: Postgresql, MySQL, MongoDB, Elasticsearch
 - **Tools**: Docker, Git
 - **Other**:
   - Interested in algorithm and data structures,
