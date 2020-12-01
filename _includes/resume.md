@@ -9,7 +9,7 @@
 - **Other**:
   - Interested in algorithm and data structures,
   - Security (especially web application security)
-  - Performance (yes, reading an explain is one of my hobby...).
+  - Performance (yes, reading an explain plan is one of my hobby...).
 
 #### ➡️ Open Source
 
