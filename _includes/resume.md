@@ -1,5 +1,7 @@
 **Software engineer** since **2008**, I am mainly interested by web technologies, especially JavaScript language and web architecture.
 
+You can download my resume as PDF [here](/static/resume.pdf).
+
 #### ➡️ Main Skills
 
 - **Backend**: Java, Spring Framework (Spring Core, Spring Boot, Spring Security, etc.), JPA / Hibernate
