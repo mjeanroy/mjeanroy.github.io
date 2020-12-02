@@ -45,6 +45,7 @@ S'est donc posé inévitablement la question d'utiliser SauceLabs sur GitHub Act
 
 **3-** Configurez votre build : pour cela créer le fichier `/.github/workflows/build.yml` à la racine du repo avec un contenu qui devrait ressember à :
 
+{% raw %}
 ```yml
 name: CI
 on: [push]
@@ -75,11 +76,13 @@ jobs:
           SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
         run: npm test
 ```
+{% endraw %}
 
 N'hésitez pas à remplacer la version de node et l'OS à utiliser par ce qui correspond à votre cas d'usage.
 
 La partie importante est celle-ci :
 
+{% raw %}
 ```yml
 - uses: saucelabs/sauce-connect-action@master
   with:
@@ -88,6 +91,7 @@ La partie importante est celle-ci :
     scVersion: 4.6.2
     tunnelIdentifier: github-action-tunnel
 ```
+{% endraw %}
 
 - Les deux clés `secrets.SAUCE_USERNAME` et `secrets.SAUCE_ACCESS_KEY` font référence aux secrets configurés juste avant.
 - La valeur de `tunnelIdentifier` est importante, on la ré-utilisera plus tard.
