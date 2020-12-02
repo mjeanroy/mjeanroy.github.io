@@ -26,7 +26,7 @@ Je ne parlerai pas des avantages et inconvénients des deux, je n'ai jamais vrai
 
 Puis, courant 2019, GitHub a annoncé [GitHub Actions](https://github.com/features/actions) : un outil de CI/CD directement intégré dans GitHub ! Etant très satisfait de travis, j'y ai surtout jeté un coup d'oeil par curiosité sans vraiment ressentir le besoin de tout migrer...
 
-Et puis, il faut bien le dire, depuis quelques mois, travis-ci a quelques problèmes :
+Et puis, depuis quelques mois, travis-ci a quelques problèmes :
 - Des jobs en queue pendant plusieurs jours, voire plusieurs jours.
 - Une migration un peu fastidieuse de [travis-ci.org](https://travis-ci.org) vers [travis-ci.com](https://travis-ci.com)
 - Et surtout : un crédit plus que limité pour les projets open source après migration vers [travis-ci.com](https://travis-ci.com).
