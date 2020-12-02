@@ -24,5 +24,21 @@
         }
       }
     }
-  }  
+  }
+
+  .posts {
+    h3 {
+      text-align: center;
+    }
+
+    ul {
+      margin: 30px 0 0 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        text-align: center;
+      }
+    }
+  }
 }
