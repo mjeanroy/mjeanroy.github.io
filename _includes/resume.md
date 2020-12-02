@@ -1,6 +1,6 @@
 **Software engineer** since **2008**, I am mainly interested by web technologies, especially JavaScript language and web architecture.
 
-You can download my resume as PDF [here](/static/resume.pdf).
+You can download my resume as PDF [here](/static/resume.pdf) (note that my phone number is not displayed on this version).
 
 #### ➡️ Main Skills
 
