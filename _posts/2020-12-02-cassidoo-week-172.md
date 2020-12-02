@@ -3,7 +3,7 @@ layout: post
 title:  "Cassidoo Week #172"
 ---
 
-Here is the interview question of cassidoo newsletter #172:
+Here is the interview question of [cassidoo](https://cassidoo.co/) newsletter #172:
 
 Given an array of integers and a target value, return the number of pairs of array elements that have a difference equal to a target value.
 
