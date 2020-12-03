@@ -49,6 +49,7 @@ function arrayDiff(array, diff) {
 ```
 
 This solution has a complexity of O(n), which is great!
+
 Note that this solution takes care of duplications in given array, if the array contains only unique elements, we can make it simpler using only a set.
 
 A naïve solution could be;
