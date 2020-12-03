@@ -19,7 +19,7 @@ And here is my solution in JavaScript:
 ```js
 function arrayDiff(array, diff) {
   const size = array.length;
-  if (size <= 1) {
+  if (size === 0) {
     return 0;
   }
 
