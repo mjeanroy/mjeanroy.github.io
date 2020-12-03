@@ -22,8 +22,9 @@ function arrayDiff(array, diff) {
   if (size <= 1) {
     return 0;
   }
-  
+
   const map = new Map();
+
   for (let i = 0; i < size; ++i) {
     const value = array[i];
     if (!map.has(value)) {
@@ -36,11 +37,12 @@ function arrayDiff(array, diff) {
 
   let nb = 0;
 
-  for (let i = 0; i < size; ++i) {
-    const value = array[i];
+  for (const entries of map.entries()) {
+    const value = entries[0];
+    const occ = entries[1];
     const lookingFor = diff + value;
     if (map.has(lookingFor)) {
-      nb += map.get(lookingFor);
+      nb += occ * map.get(lookingFor);
     }
   }
 
@@ -53,35 +55,6 @@ This solution has a complexity of O(n), which is great!
 Note that:
 - This solution takes care of duplications in given array, if the array contains only unique elements, we can make it simpler using only a set.
 - If `diff` is equal to zero, then the solution could be easily improved.
-
-The same solution using `forEach` and `reduce`:
-
-```js
-function arrayDiff(array, diff) {
-  if (array.length <= 1) {
-    return 0;
-  }
-
-  const map = new Map();
-
-  array.forEach((value) => {
-    if (!map.has(value)) {
-      map.set(value, 0);
-    }
-
-    map.set(value, map.get(value) + 1);
-  });
-
-  return array.reduce((acc, value) => {
-    const lookingFor = diff + value;
-    if (!map.has(lookingFor)) {
-      return acc;
-    }
-
-    return acc + map.get(lookingFor);
-  }, 0);
-}
-```
 
 A naïve solution could be;
 
