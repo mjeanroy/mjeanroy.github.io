@@ -50,7 +50,9 @@ function arrayDiff(array, diff) {
 
 This solution has a complexity of O(n), which is great!
 
-Note that this solution takes care of duplications in given array, if the array contains only unique elements, we can make it simpler using only a set.
+Note that:
+- This solution takes care of duplications in given array, if the array contains only unique elements, we can make it simpler using only a set.
+- If `diff` is equal to zero, then the solution could be easily improved.
 
 The same solution using `forEach` and `reduce`:
 
