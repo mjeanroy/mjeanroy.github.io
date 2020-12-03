@@ -17,13 +17,14 @@ $ 3 // 2 - 1 = 1, 3 - 2 = 1, and 4 - 3 = 1
 And here is my solution in JavaScript:
 
 ```js
-const size = array.length;
+function arrayDiff(array, diff) {
+  const size = array.length;
   if (size <= 1) {
     return 0;
   }
   
   const map = new Map();
-  for (let i = 0; i <= size; ++i) {
+  for (let i = 0; i < size; ++i) {
     const value = array[i];
     if (!map.has(value)) {
       map.set(value, 0);
@@ -35,7 +36,7 @@ const size = array.length;
 
   let nb = 0;
 
-  for (let i = 0; i <= size; ++i) {
+  for (let i = 0; i < size; ++i) {
     const value = array[i];
     const lookingFor = diff + value;
     if (map.has(lookingFor)) {
@@ -44,6 +45,7 @@ const size = array.length;
   }
 
   return nb;
+}
 ```
 
 This solution has a complexity of O(n), which is great!
