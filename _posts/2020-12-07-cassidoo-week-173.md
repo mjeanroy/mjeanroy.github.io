@@ -31,28 +31,32 @@ x   456
 
 The first step is to iterate over digits of `456` (in reverse order) and multiply each digit with `123`, for example:
 
-1-1 `6 * 3 = 18 => 8 carry 1`
-1-2 `6 * 2 + 1 = 13 => 3 carry 1`
-1-3 `6 * 1 + 1 = 7, carry 0`
+```
+1-1 6 * 3 = 18 => 8 carry 1
+1-2 6 * 2 + 1 = 13 => 3 carry 1
+1-3 6 * 1 + 1 = 7, carry 0
 
-2-1 `Append one zero`
-2-2 `5 * 3 = 15 => 5 carry 1`
-2-3 `5 * 2 + 1 = 11 => 1 carry 1`
-2-4 `5 * 1 + 1 = 6, carry 0`
+2-1 Append one zero
+2-2 5 * 3 = 15 => 5 carry 1
+2-3 5 * 2 + 1 = 11 => 1 carry 1
+2-4 5 * 1 + 1 = 6, carry 0
 
-3-1 `Append two zero`
-3-2 `4 * 3 = 12 => 2 carry 1`
-3-3 `4 * 2 + 1 = 9 carry 1`
-3-4 `4 * 1 + 0 = 4, carry 0`
+3-1 Append two zero
+3-2 4 * 3 = 12 => 2 carry 1
+3-3 4 * 2 + 1 = 9 carry 1
+3-4 4 * 1 + 0 = 4, carry 0
+```
 
 And now, the idea is to sum all these sub-results one by one:
 
-0- `carry 0`
-1- `8 + 0 + 0 + carry = 8 + 0 + 0 + 0 = 8 carry 0`
-2- `3 + 5 + 0 + carry = 3 + 5 + 0 + 0 = 8 carry 0`
-3- `7 + 1 + 2 + carry = 7 + 1 + 2 + 0 = 10 => 0 carry 1`
-4- `0 + 6 + 9 + carry = 0 + 6 + 9 + 1 = 16 => 6 carry 1`
-5- `0 + 0 + 4 + carry = 0 + 0 + 4 + 1 = 5 carry 0`
+```
+0- carry 0
+1- 8 + 0 + 0 + carry = 8 + 0 + 0 + 0 = 8 carry 0
+2- 3 + 5 + 0 + carry = 3 + 5 + 0 + 0 = 8 carry 0
+3- 7 + 1 + 2 + carry = 7 + 1 + 2 + 0 = 10 => 0 carry 1
+4- 0 + 6 + 9 + carry = 0 + 6 + 9 + 1 = 16 => 6 carry 1
+5- 0 + 0 + 4 + carry = 0 + 0 + 4 + 1 = 5 carry 0
+```
 
 And, here it is, we have our results: `56088`.
 
