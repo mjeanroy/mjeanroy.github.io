@@ -180,3 +180,11 @@ function computeSumOfProducts(products) {
   return product;
 }
 ```
+
+The complexity here is O(m * n) where m is the number of digits of `x` and n is the number of digits of `y`.
+
+I'm curious if we can do better here...
+
+This solution could be optimized by computing and positioning the sum during the first iteration but that does not change the complexity, so... maybe I'll do it for the challenge :)
+
+If someone has a better solution, feel free to ping me on [twitter](https://twitter.com/mickaeljeanroy)!
