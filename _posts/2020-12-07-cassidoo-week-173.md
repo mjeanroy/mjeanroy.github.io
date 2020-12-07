@@ -106,7 +106,7 @@ function computeProducts(x, y) {
 
   // Start with each digit of `y` in reverse order.
   for (let i = 0; i < y.length; ++i) {
-    const nb1 = Number(y[y.length - i - 1]);
+    const nb1 = y[y.length - i - 1] - '0';
     const result = [];
 
     // Populate with zero until position of `i`.
@@ -118,7 +118,7 @@ function computeProducts(x, y) {
     let carry = 0;
 
     for (let j = x.length - 1; j >= 0; --j) {
-      const nb2 = Number(x[j]);
+      const nb2 = x[j] - '0';
 
       let product = (nb1 * nb2) + carry;
 
@@ -188,6 +188,13 @@ function computeSumOfProducts(products) {
   return product;
 }
 ```
+
+Note that since we are not allowed to use `parseInt` (or equivalent), I'm just doing simple char arithmetic to translate a digit to an int.
+For example:
+
+- `'0' - '0' = 0`
+- `'5' - '0' = 5`
+- `'9' - '0' = 9`
 
 The complexity here is `O(m * n)` where `m` is the number of digits of `x` and `n` is the number of digits of `y`.
 
