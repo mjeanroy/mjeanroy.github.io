@@ -181,7 +181,7 @@ function computeSumOfProducts(products) {
 }
 ```
 
-The complexity here is O(m * n) where m is the number of digits of `x` and n is the number of digits of `y`.
+The complexity here is `O(m * n)` where `m` is the number of digits of `x` and `n` is the number of digits of `y`.
 
 I'm curious if we can do better here...
 
