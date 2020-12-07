@@ -68,6 +68,14 @@ function stringMultiply(x, y) {
     return '0';
   }
 
+  if (x === '1') {
+    return y;
+  }
+
+  if (y === '1') {
+    return x;
+  }
+
   return computeSumOfProducts(
     computeProducts(x, y)
   );
