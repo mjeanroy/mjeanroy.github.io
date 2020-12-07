@@ -10,8 +10,8 @@ Given two non-negative integers n1 and n2 represented as strings, return the pro
 Examples:
 
 ```
-$ stringMultiply(“123”, “456”)
-$ “56088”
+$ stringMultiply("123", "456")
+$ "56088"
 ```
 
 This puzzle looks simple but in fact is quite complicated. Let's take the example below and let's do all the step one by one:
