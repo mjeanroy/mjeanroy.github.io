@@ -14,7 +14,7 @@ $ stringMultiply(“123”, “456”)
 $ “56088”
 ```
 
-This puzzle looks simple but in fact is quite complicated. Let's take the and let's do all the step one by one:
+This puzzle looks simple but in fact is quite complicated. Let's take the example below and let's do all the step one by one:
 
 As we saw at school, multiplying two numbers can be done "by hand" like:
 
