@@ -27,7 +27,7 @@ On voit que quelle que soit la plateforme / langage, les solutions ne manquent p
 
 ### ➡️ Problèmes
 
-Mais comment l'utiliser ? Simple : suivant le langage choisi, on importe le package (maven, gradle, npm, PyPi, etc.) et c'est parti 🔥
+Mais comment l'utiliser ? Simple : suivant le langage choisi, on importe le package (maven, gradle, npm, etc.) et c'est parti 🔥
 
 Mais ceci présente un problème que vous ne voyez peut-être pas au premier abord : vous allez éparpiller un peu partout la solution choisie. Sur une codebase avec une taille raisonnable, cela pose peu de problème, mais quels sont les risques quand la codebase grossit ou bien que les équipes de devs augmentent en nombre ?
 
