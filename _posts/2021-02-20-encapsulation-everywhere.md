@@ -111,6 +111,6 @@ Je donne un exemple dans cet article avec une fonction d'escaping, mais vous pou
 
 ### ➡️ Conclusion
 
-Cet article n'a pas pour but de vous dire d'encapsuler toutes vos dépendances, dans pas mal de cas cela complexifiera beaucoup votre développement au quotidien. Mais il y a aussi une grande majorité de cas où mettre en place cette encapsulation au départ ne vous coûtera pas cher et vous en verrez les bénéfices plusieurs mois / années plus tard 😀
+Cet article n'a pas pour but de vous dire d'encapsuler toutes vos dépendances, dans certains cas cela complexifiera beaucoup votre développement au quotidien. Mais il y a aussi une grande majorité de cas où mettre en place cette encapsulation au départ ne vous coûtera pas cher et vous en verrez les bénéfices plusieurs mois / années plus tard 😀
 
 Donc, la prochaine fois que vous utilisez `lodash`, `underscore`, n'importe quel package utilitaire sur [npm](https://www.npmjs.com/), `Apache Commons` ou `Guava`, pensez à ne pas faire leaké votre dépendance partout dans votre codebase 🙂
