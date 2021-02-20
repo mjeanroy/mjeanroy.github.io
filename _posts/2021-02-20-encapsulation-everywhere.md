@@ -23,7 +23,7 @@ Du côté JavaScript, vous allez pouvoir utiliser:
 - Le package disponible sur [npm](https://www.npmjs.com/): [sanitize-html](https://www.npmjs.com/package/sanitize-html)
 - Etc.
 
-On voit que quelle que soit la plateforme / langage, les solutions ne manquent pas, l'idée maintenant sur votre codebase et de choisir la solution qui vous convient le mieux et de l'utiliser :)
+On voit que quelle que soit la plateforme / langage, les solutions ne manquent pas, l'idée maintenant sur votre codebase est de choisir la solution qui vous convient le mieux et de l'utiliser ✌️
 
 ### ➡️ Problèmes
 
