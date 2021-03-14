@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Prédisons le futur"
+tags: ['security', 'tech', 'malt']
 ---
 
 *Cet article a initialement été publié sur [medium](https://medium.com/nerds-malt/pr%C3%A9disons-le-futur-56c87ba1688b).*

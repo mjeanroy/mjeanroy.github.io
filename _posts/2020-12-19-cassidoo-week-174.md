@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Cassidoo Week #174"
+tags: ['cassidoo', 'algorithm']
 ---
 
 Here is the interview question of [cassidoo](https://cassidoo.co/) newsletter #174:

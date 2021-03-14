@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Encapsulation Everywhere"
+tags: ['tech', 'clean code']
 ---
 
 ### ➡️ Introduction

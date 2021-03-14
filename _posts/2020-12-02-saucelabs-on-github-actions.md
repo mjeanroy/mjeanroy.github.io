@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Utiliser SauceLabs avec GitHub Actions"
-tags: SauceLabs "GitHub Actions" Travis TDD
+tags: ['SauceLabs', 'GitHub Actions', 'Travis', 'TDD', 'tech']
 ---
 
 ### ➡️ Point de départ

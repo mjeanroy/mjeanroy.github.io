@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Maven, Node & NPM"
+tags: ['maven', 'npm', 'tech']
 ---
 
 Pour développer une application web, je pars généralement sur une stack qui consiste en un backend java, et une

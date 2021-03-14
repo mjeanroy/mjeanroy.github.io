@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Prismic @ Malt"
+tags: ['tech', 'prismic', 'malt']
 ---
 
 *Cet article a initialement été publié sur [medium](https://medium.com/nerds-malt/prismic-malt-2f59b96c18a9).*
