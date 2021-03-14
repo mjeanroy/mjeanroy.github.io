@@ -1,3 +1,6 @@
+@import "colors";
+@import "mixins";
+
 .home {
   .me, .contact {
     text-align: center;
@@ -37,6 +40,10 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-column-gap: 40px;
       grid-row-gap: 20px;
+
+      @include md-down {
+        grid-template-columns: 1fr;
+      }
     }
 
     .post {

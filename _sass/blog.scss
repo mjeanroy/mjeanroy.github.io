@@ -1,10 +1,15 @@
 @import "colors";
+@import "mixins";
 
 .blog {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 20px;
+
+  @include md-down {
+    grid-template-columns: 1fr;
+  }
 
   .blog-post-date {
     font-style: italic;
