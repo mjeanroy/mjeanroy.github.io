@@ -1,6 +1,6 @@
-title: mjeanroy.dev
+title: Mickael Jeanroy Website
 author: Mickael Jeanroy
-description: mjeanroy.dev website
+description: Welcome to mickael jeanroy's website
 url: https://mjeanroy.dev
 email: mickael.jeanroy@gmail.com
 baseurl: /
@@ -15,6 +15,9 @@ ga:
 
 twitter:
   username: mickaeljeanroy
+
+plugins:
+  - jekyll-feed
 
 compress_html:
   clippings: []
