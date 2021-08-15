@@ -19,9 +19,18 @@ You can find the list of my personal projects publicly available on GitHub [here
 
 #### ➡️ Professional Experience
 
-##### ⭐ **2017 - PRESENT -- [Malt Community](https://www.malt.fr)**
+##### ⭐ **2021 - PRESENT -- [Alan](https://alan.com)**
 
-**Since 2017**, I work for Malt Community as **Technical Leader**.
+As a **software engineer**, I work on the platorm to make the life of our members easier.
+
+- **Back**: Python (Flask, SQLAlchemy)
+- **Front**: TypeScript, React
+- **Database**: PostgreSQL
+- **Other**: Docker, Git
+
+##### ⭐ **2017 - 2021 -- [Malt Community](https://www.malt.fr)**
+
+Software Engineer and **Technical Leader**.
 
 I have had opportunity to work on various parts of the platform, such as:
 
