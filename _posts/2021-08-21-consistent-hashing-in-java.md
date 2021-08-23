@@ -144,7 +144,7 @@ public final class Cluster {
 
     int hash = computeHash(value);
     if (nodes.containsKey(hash)) {
-      return nodes.get(hash).rootNode();
+      return nodes.get(hash);
     }
 
     // Get next node on the ring.
