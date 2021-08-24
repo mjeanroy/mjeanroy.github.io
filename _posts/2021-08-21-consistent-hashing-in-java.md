@@ -99,7 +99,7 @@ The main advantage of this technique is that adding or removing a node in the cl
 
 <img src="/static/blog/consistent-hashing/05.svg" width="400" style="margin: 0"/>
 
-In the example below, we suppose that `srv4` goes down: all we have to do is to keys located between `srv4` and `srv1` to `srv1` 🎉
+In the example below, we suppose that `srv4` goes down: all we have to do is to re-map keys located between `srv3` and `srv4` to `srv1` 🎉
 
 Let's see how to implement this in Java:
 
@@ -188,4 +188,4 @@ The implementation above is very simple, if you want to go further, I suggest yo
 
 _Virtual nodes is a technique where we can add, for any node in the ring, additional "virtual" nodes (node that does not really exists, but "points" to the real node), the idea being to adjust & balance key mapping across the ring_
 
-Or, if you want to take a look, checkout my [GitHub project](https://github.com/mjeanroy/consistent-hashing-4j/blob/master/src/main/java/com/github/mjeanroy/consistenthashing4j/Ring.java) where I implemented all of this and let me know what you think :)
+Or, if you want to take a look, checkout my [GitHub project](https://github.com/mjeanroy/consistent-hashing-4j) where I implemented all of this and let me know what you think :)
