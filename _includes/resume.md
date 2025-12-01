@@ -19,7 +19,24 @@ You can find the list of my personal projects publicly available on GitHub [here
 
 #### ➡️ Professional Experience
 
-##### ⭐ **2021 - PRESENT -- [Alan](https://alan.com)**
+##### ⭐ **2021 - 2023 -- [Bastion Technologies](https://bastion.tech)**
+
+Help companies strengthen their security posture and achieve security compliance (SOC2, ISO 27001, etc.).
+
+We built a set of tools to help companies get ready for their security compliance:
+- Integration with major Cloud Providers (AWS, GCP, Azure, Scaleway, OVH).
+- MDM: Built on top of Apple and Windows protocols for Apple and Microsoft devices, with a lightweight agent powered by OSQuery for Linux systems.
+- Human Risk Management: Phishing simulations and training programs to increase security awareness.
+- Security Scanners: External attack surface analysis, code scanning, and additional tooling to identify vulnerabilities and reduce risk.
+- Etc.
+
+Technical stack:
+- **Back**: NodeJS, TypeScript, Go
+- **Front**: TypeScript, React
+- **Database**: PostgreSQL
+- **Infrastructure**: AWS (Lambda, ECS, etc.).
+
+##### ⭐ **2021 - 2023 -- [Alan](https://alan.com)**
 
 As a **software engineer**, I work on the platorm to make the life of our members easier.
 
